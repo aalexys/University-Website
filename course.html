@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+
+    <link rel="stylesheet" href="course.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <section class="header">
+
+            
+        <nav>
+            <div class="logo">
+                <div class="letter">S</div>
+                <div class="letter">T</div>
+                <div class="letter">U</div>
+                <div class="letter">D</div>
+                <div class="letter">Y</div>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course  &  Candidates</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="introducing">
+                <h1>World's Biggest University</h1>
+                <p>Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, aspernatur? <br> Quidem quibusdam rem asperiores id officiis laboriosam? Accusantium numquam voluptate doloribus!</p>
+               
+                <h2>Here You Can Apply For Our University</h2>
+            </div>
+    </section>
+
+
+    <section class="form">
+
+        <h1>In this form you will have to fill in your personal data, stating that they are under high security</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Accusantium libero perspiciatis autem!</p>
+
+        <div class="containers">
+
+        <div class="form-container">
+            <h1
+                >Candidate Form <span
+                >Fill in this form</span
+                >
+            </h1>
+
+            <form>
+                <div class="section"><span>1</span>Student Information</div>
+                <div class="inner-wrap">
+                    <label>First Name <input type="text" id="first-name" placeholder="Jason"></label>
+
+                    <label>Last Name <input type="text" id="last-name" placeholder="Makson"></label>
+
+                    <label>Age <input type="text" id="age" placeholder="18"></label>
+
+                    <p id="gender">Gender</p>
+                    <select id="genderSelect">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+
+                    <label>The Name Of The Course 
+                        <input type="text" id="course-name" placeholder="Economy">
+                    </label>
+
+
+                </div>
+
+                <div class="section"><span>2</span>Your Cover Letter</div>
+                <div class="inner-wrap">
+                    <label for="task">Cover Letter</label>
+                    <textarea type="task" name="task" id="task" rows="4" cols="50" placeholder="Your Letter"></textarea>
+                </div>
+                <div class="button-section"></div>
+                <input type="button" id="form-btn" value="Submit">
+            </form>
+        </div>
+
+        <div class="side-wrapper">
+            <ul id="in-progress">
+                <h3>In Progress</h3>
+
+                <h1>Check The Information</h1>
+
+                
+            </ul>
+            <div class="message">
+              
+
+            </div>
+            
+        </div>
+
+    </div>
+    </section>
+
+
+    <section class="courses">
+        <h1>Our Courses</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, animi.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <img src="img/computer.png">
+                <h1>Software Engineering</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores.</p>
+            </div>
+
+            <div class="course-col">
+                <img src="img/business.png" alt="">
+                <h1>Business & Management</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores.</p>
+            </div>
+
+            <div class="course-col">
+                <img src="img/architecture.png" alt="">
+                <h1>Architecture</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores.</p>
+            </div>
+
+            <div class="course-col">
+                <img src="img/economy.png" alt="">
+                <h1>Economy</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores.</p>
+            </div>
+
+            <div class="course-col">
+                <img src="img/art.png" alt="">
+                <h1>Art & Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="fund">
+        <h1>Funding</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Atque, eum nostrum tempore aliquid <br> magni quos officia vel alias doloremque officiis!</p>
+
+        <div class="example">
+
+            <div class="grid">
+                <h2>Overview</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, adipisci?</p>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Laborum fugit aliquam ullam, repudiandae id voluptas! 
+                     Consequatur sit deserunt nisi nemo. Quae pariatur nobis porro, 
+                     eaque itaque rerum velit provident corporis.</p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nihil distinctio animi natus accusantium facere nisi 
+                    necessitatibus. Esse enim in deleniti!</p>
+            </div>
+
+            <div class="grid">
+                <h2>Scholarships</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, adipisci?</p>
+                
+                <h3>How Do I Apply?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Laborum fugit aliquam ullam, repudiandae id voluptas! 
+                     Consequatur sit deserunt nisi nemo. Quae pariatur nobis porro, 
+                     eaque itaque rerum velit provident corporis.</p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nihil distinctio animi natus accusantium facere nisi 
+                    necessitatibus. Esse enim in deleniti!</p>
+            </div>
+
+            <div class="grid">
+                <h2>Research Councils</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, adipisci?</p>
+                
+                <h3>How Do I Apply?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Laborum fugit aliquam ullam, repudiandae id voluptas! 
+                     Consequatur sit deserunt nisi nemo. Quae pariatur nobis porro, 
+                     eaque itaque rerum velit provident corporis.</p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nihil distinctio animi natus accusantium facere nisi 
+                    necessitatibus. Esse enim in deleniti!</p>
+            </div>
+
+            <div class="grid">
+                <h2>Studenships</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, adipisci?</p>
+                
+                <h3>How Do I Apply?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Laborum fugit aliquam ullam, repudiandae id voluptas! 
+                     Consequatur sit deserunt nisi nemo. Quae pariatur nobis porro, 
+                     eaque itaque rerum velit provident corporis.</p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Nihil distinctio animi natus accusantium facere nisi 
+                    necessitatibus. Esse enim in deleniti!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer-1">
+                <h2>About us</h2>
+                <a>Blog</a>
+                <a>Demos</a>
+                <a>Privacy & Policy</a>
+                <a>Terms of Service</a>
+            </div>
+
+            <div class="footer-1">
+                    <h2>Social Media</h2>
+                    <a><i class="fab fa-instagram"></i>    Instagram</a>
+                    <a><i class="fab fa-facebook-square"></i>    Facebook</a>
+                    <a><i class="fab fa-twitter"></i>    Twitter</a>
+                    <a><i class="fab fa-youtube"></i>    Youtube</a>
+                </div>
+
+                <div class="footer-1">
+                    <h2>Contact us</h2>
+                    <a>Support</a>
+                    <a><i class="fas fa-envelope"></i>    best_uni@quo.bg</a>
+                    <a><i class="fas fa-phone-alt"></i>    Contact: 7843783</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        let navLinks = document.querySelector('#nav-links')
+
+        function showMenu() {
+            navLinks.style.right = '0';
+        }
+        function hideMenu() {
+            navLinks.style.right = '-200px';
+        }
+    </script>
+    
+    <script src="solve.js"></script>
+</body>
+</html>

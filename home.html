@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+        <section class="header">
+
+            
+            <nav>
+                <div class="logo">
+                    <div class="letter">S</div>
+                    <div class="letter">T</div>
+                    <div class="letter">U</div>
+                    <div class="letter">D</div>
+                    <div class="letter">Y</div>
+                </div>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course  &  Candidates</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+
+                <div class="introducing">
+                    <h1>World's Biggest University</h1>
+                    <p>Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, aspernatur? <br> Quidem quibusdam rem asperiores id officiis laboriosam? Accusantium numquam voluptate doloribus!</p>
+                    <a href="about.html" class="more-btn">Visit us to know more</a>
+                </div>
+        </section>
+
+        <script>
+            let navLinks = document.querySelector('#nav-links')
+
+            function showMenu() {
+                navLinks.style.right = '0';
+            }
+            function hideMenu() {
+                navLinks.style.right = '-200px';
+            }
+        </script>
+</body>
+</html>
